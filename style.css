@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 3vw;
+  margin-left: 3vw;
+  display: inline;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#de5757, #faa0a0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding-right: 5%;
+}
+
+a {
+  text-decoration: none;
+}
