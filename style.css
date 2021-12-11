@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Dancing Script", cursive;
 }
 
 li {
@@ -32,4 +33,31 @@ li {
 
 a {
   text-decoration: none;
+}
+
+#headContentAbout,
+#bodyContentAbout {
+  width: 100vw;
+  display: flex;
+}
+
+#headContentAbout {
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  background: center / cover no-repeat url("/img/batumi.jpg");
+  font-size: 3em;
+  font-family: "Corinthia", cursive;
+  text-shadow: 2px 2px 1px white;
+}
+
+#bodyContentAbout {
+  background: center / cover no-repeat url("/img/batumi-beach.jpg");
+}
+
+.blur {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
 }
