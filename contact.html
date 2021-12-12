@@ -39,10 +39,45 @@
     </nav>
 
     <!-- Contact the Royal Kingdom -->
+    <h2 style="margin-top: 60px;">
+      Contact your family right now !
+    </h2>
     <p>
       Fill in the form below to contact the Royal Kingdom
     </p>
-    Name... Email... Message... Submit...
+    <section id="contact">
+      <form>
+        <label for="firstname">
+          First name:
+        </label>
+        <br />
+        <input type="text" id="firstname" name="fname" placeholder="John" />
+        <br />
+        <label for="lastname">
+          Last name:
+        </label>
+        <br />
+        <input type="text" id="lastname" name="lname" placeholder="Doe" />
+        <br />
+        <label for="mail">
+          Mail:
+        </label>
+        <br />
+        <input type="email" id="mail" name="mail" placeholder="abc@gmail.com" />
+        <br />
+        <label for="message">
+          Message:
+        </label>
+        <br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here."
+        ></textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
 
     <!-- Connect the Javascript file -->
     <script src="script.js"></script>
