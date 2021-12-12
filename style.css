@@ -11,6 +11,7 @@ li {
 }
 
 #header {
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(#de5757, #faa0a0);
