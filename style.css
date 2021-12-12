@@ -67,3 +67,23 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+/* Tableau */
+
+tr {
+  text-align: center;
+}
+
+table,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+th {
+  background-color: #999999;
+}
